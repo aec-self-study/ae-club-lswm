@@ -1,0 +1,868 @@
+[0m18:35:04.462216 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe53a772980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe539823b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe539823ee0>]}
+
+
+============================== 18:35:04.464705 | 121aaeb4-7f81-405d-b53a-5adf7a83c469 ==============================
+[0m18:35:04.464705 [info ] [MainThread]: Running with dbt=1.6.1
+[0m18:35:04.465620 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': '/home/vscode/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m18:35:04.466133 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /workspaces/ae-club-lswm/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m18:35:04.466912 [debug] [MainThread]: Command `dbt run` failed at 18:35:04.466806 after 0.03 seconds
+[0m18:35:04.467331 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe53a772980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe539818460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe539818370>]}
+[0m18:35:04.467767 [debug] [MainThread]: Flushing usage events
+[0m18:36:58.122866 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5a35635d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5a346b42b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5a346b4460>]}
+
+
+============================== 18:36:58.125550 | fa23101b-1045-4d2f-8152-3646b1e05507 ==============================
+[0m18:36:58.125550 [info ] [MainThread]: Running with dbt=1.6.1
+[0m18:36:58.126264 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/home/vscode/.dbt', 'log_path': '/workspaces/ae-club-lswm/logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:36:58.129078 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'coffee_shop_lswm'
+[0m18:36:58.129818 [debug] [MainThread]: Command `dbt run` failed at 18:36:58.129705 after 0.03 seconds
+[0m18:36:58.130214 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5a35635d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5a37718b80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5a37718af0>]}
+[0m18:36:58.130626 [debug] [MainThread]: Flushing usage events
+[0m18:40:01.214343 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb4df71180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb4d01da80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb4d01c850>]}
+
+
+============================== 18:40:01.216856 | 1dcb3f0e-0dc4-4740-b34c-fad25b0f60ac ==============================
+[0m18:40:01.216856 [info ] [MainThread]: Running with dbt=1.6.1
+[0m18:40:01.217593 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/workspaces/ae-club-lswm/logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m18:40:01.524047 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '1dcb3f0e-0dc4-4740-b34c-fad25b0f60ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb4a998400>]}
+[0m18:40:01.532686 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '1dcb3f0e-0dc4-4740-b34c-fad25b0f60ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb4a981090>]}
+[0m18:40:01.533322 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m18:40:01.542118 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m18:40:01.543013 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m18:40:01.543780 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '1dcb3f0e-0dc4-4740-b34c-fad25b0f60ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb4d53bb80>]}
+[0m18:40:02.271757 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.coffee_shop_lswm.example
+[0m18:40:02.277476 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1dcb3f0e-0dc4-4740-b34c-fad25b0f60ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb4a87e9b0>]}
+[0m18:40:02.291174 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '1dcb3f0e-0dc4-4740-b34c-fad25b0f60ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb4a8f7940>]}
+[0m18:40:02.291930 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m18:40:02.292594 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '1dcb3f0e-0dc4-4740-b34c-fad25b0f60ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb4a8f7850>]}
+[0m18:40:02.293926 [info ] [MainThread]: 
+[0m18:40:02.294537 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m18:40:02.295370 [debug] [MainThread]: Command end result
+[0m18:40:02.304409 [debug] [MainThread]: Command `dbt run` succeeded at 18:40:02.303933 after 1.12 seconds
+[0m18:40:02.305059 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb4df71180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb4a8f74f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb4a8f7940>]}
+[0m18:40:02.305700 [debug] [MainThread]: Flushing usage events
+[0m18:58:58.381586 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1e35a56950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1e34b008e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1e34b01540>]}
+
+
+============================== 18:58:58.384148 | 051934fb-1326-4366-8b6a-84675dab59c8 ==============================
+[0m18:58:58.384148 [info ] [MainThread]: Running with dbt=1.6.1
+[0m18:58:58.384844 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/home/vscode/.dbt', 'log_path': '/workspaces/ae-club-lswm/logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt run', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m18:58:58.661449 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '051934fb-1326-4366-8b6a-84675dab59c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1e324903d0>]}
+[0m18:58:58.669863 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '051934fb-1326-4366-8b6a-84675dab59c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1e32480550>]}
+[0m18:58:58.670504 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m18:58:58.678648 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m18:58:58.700896 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m18:58:58.701247 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m18:58:58.701707 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.coffee_shop_lswm.example
+[0m18:58:58.706646 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '051934fb-1326-4366-8b6a-84675dab59c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1e32257df0>]}
+[0m18:58:58.714676 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '051934fb-1326-4366-8b6a-84675dab59c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1e323a4c10>]}
+[0m18:58:58.715329 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m18:58:58.715899 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '051934fb-1326-4366-8b6a-84675dab59c8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1e323a7820>]}
+[0m18:58:58.717122 [info ] [MainThread]: 
+[0m18:58:58.717668 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m18:58:58.718529 [debug] [MainThread]: Command end result
+[0m18:58:58.725820 [debug] [MainThread]: Command `dbt run` succeeded at 18:58:58.725671 after 0.37 seconds
+[0m18:58:58.726386 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1e35a56950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1e323a70a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1e323a4760>]}
+[0m18:58:58.726959 [debug] [MainThread]: Flushing usage events
+[0m19:02:06.361115 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77223da950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7721481420>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7721481540>]}
+
+
+============================== 19:02:06.363562 | 5869d5da-5fbf-4a39-879a-2cef636c8eb3 ==============================
+[0m19:02:06.363562 [info ] [MainThread]: Running with dbt=1.6.1
+[0m19:02:06.364272 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/workspaces/ae-club-lswm/logs', 'fail_fast': 'False', 'profiles_dir': '/home/vscode/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:02:06.630686 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '5869d5da-5fbf-4a39-879a-2cef636c8eb3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f771ee58400>]}
+[0m19:02:06.639170 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '5869d5da-5fbf-4a39-879a-2cef636c8eb3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f771ee493f0>]}
+[0m19:02:06.639832 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m19:02:06.647617 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m19:02:06.666615 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m19:02:06.666962 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m19:02:06.667445 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.coffee_shop_lswm.example
+[0m19:02:06.673049 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '5869d5da-5fbf-4a39-879a-2cef636c8eb3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f771ec23fd0>]}
+[0m19:02:06.683856 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '5869d5da-5fbf-4a39-879a-2cef636c8eb3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f771ed6cdf0>]}
+[0m19:02:06.684512 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m19:02:06.685224 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5869d5da-5fbf-4a39-879a-2cef636c8eb3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f771ed6f9d0>]}
+[0m19:02:06.686871 [info ] [MainThread]: 
+[0m19:02:06.687468 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m19:02:06.688674 [debug] [MainThread]: Command end result
+[0m19:02:06.694950 [debug] [MainThread]: Command `dbt run` succeeded at 19:02:06.694807 after 0.36 seconds
+[0m19:02:06.695547 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77223da950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f771ed6f280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f771ed6c940>]}
+[0m19:02:06.696088 [debug] [MainThread]: Flushing usage events
+[0m19:11:31.747479 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fccd7ed1d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fccd6f7c8b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fccd6f7d990>]}
+
+
+============================== 19:11:31.750114 | 2fbc2d0e-98bd-4814-8161-832a46625765 ==============================
+[0m19:11:31.750114 [info ] [MainThread]: Running with dbt=1.6.1
+[0m19:11:31.750831 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/home/vscode/.dbt', 'log_path': '/workspaces/ae-club-lswm/logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt build', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m19:11:32.028072 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '2fbc2d0e-98bd-4814-8161-832a46625765', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fccd488c370>]}
+[0m19:11:32.036989 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '2fbc2d0e-98bd-4814-8161-832a46625765', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fccd487c070>]}
+[0m19:11:32.037826 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m19:11:32.046437 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m19:11:32.065955 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m19:11:32.066542 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m19:11:32.067071 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.coffee_shop_lswm.example
+[0m19:11:32.072962 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '2fbc2d0e-98bd-4814-8161-832a46625765', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fccd4653eb0>]}
+[0m19:11:32.082428 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '2fbc2d0e-98bd-4814-8161-832a46625765', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fccd47a3b20>]}
+[0m19:11:32.083220 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m19:11:32.084550 [info ] [MainThread]: 
+[0m19:11:32.085137 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m19:11:32.085930 [debug] [MainThread]: Command end result
+[0m19:11:32.093923 [debug] [MainThread]: Command `dbt build` succeeded at 19:11:32.093729 after 0.38 seconds
+[0m19:11:32.094604 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fccd7ed1d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fccd47a32e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fccd47a09a0>]}
+[0m19:11:32.095267 [debug] [MainThread]: Flushing usage events
+[0m19:12:56.901591 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcf770ae920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcf76154d60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcf76154850>]}
+
+
+============================== 19:12:56.904270 | c73cf1c4-aac3-4eb7-b7ab-3fb61cec31b2 ==============================
+[0m19:12:56.904270 [info ] [MainThread]: Running with dbt=1.6.1
+[0m19:12:56.905072 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/workspaces/ae-club-lswm/logs', 'version_check': 'True', 'profiles_dir': '/home/vscode/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt build', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:12:57.398336 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c73cf1c4-aac3-4eb7-b7ab-3fb61cec31b2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcf73a904c0>]}
+[0m19:12:57.407082 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c73cf1c4-aac3-4eb7-b7ab-3fb61cec31b2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcf73a82650>]}
+[0m19:12:57.407856 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m19:12:57.417380 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m19:12:57.423975 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m19:12:57.424530 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'c73cf1c4-aac3-4eb7-b7ab-3fb61cec31b2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcf73a5a440>]}
+[0m19:12:58.170183 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.coffee_shop_lswm.customers
+[0m19:12:58.178347 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c73cf1c4-aac3-4eb7-b7ab-3fb61cec31b2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcf739cbe20>]}
+[0m19:12:58.192384 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c73cf1c4-aac3-4eb7-b7ab-3fb61cec31b2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcf739cbdc0>]}
+[0m19:12:58.193234 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m19:12:58.194757 [info ] [MainThread]: 
+[0m19:12:58.195434 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m19:12:58.196301 [debug] [MainThread]: Command end result
+[0m19:12:58.212108 [debug] [MainThread]: Command `dbt build` succeeded at 19:12:58.211854 after 1.35 seconds
+[0m19:12:58.212973 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcf770ae920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcf73a5bca0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcf73964520>]}
+[0m19:12:58.213750 [debug] [MainThread]: Flushing usage events
+[0m19:14:02.426349 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc26d1c9d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc26c249b10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc26c249990>]}
+
+
+============================== 19:14:02.428863 | 5305a236-6dcf-45e3-ac1a-a0f6b5241935 ==============================
+[0m19:14:02.428863 [info ] [MainThread]: Running with dbt=1.6.1
+[0m19:14:02.429598 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/workspaces/ae-club-lswm/logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt build', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:14:02.686817 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '5305a236-6dcf-45e3-ac1a-a0f6b5241935', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc269c604f0>]}
+[0m19:14:02.697075 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '5305a236-6dcf-45e3-ac1a-a0f6b5241935', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc269c525f0>]}
+[0m19:14:02.697982 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m19:14:02.706023 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m19:14:02.711947 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m19:14:02.712499 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '5305a236-6dcf-45e3-ac1a-a0f6b5241935', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc269c2a200>]}
+[0m19:14:03.459921 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.coffee_shop_lswm.coffee_shop
+[0m19:14:03.465861 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '5305a236-6dcf-45e3-ac1a-a0f6b5241935', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc269b13df0>]}
+[0m19:14:03.473721 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '5305a236-6dcf-45e3-ac1a-a0f6b5241935', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc269b13e80>]}
+[0m19:14:03.474373 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m19:14:03.475701 [info ] [MainThread]: 
+[0m19:14:03.476225 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m19:14:03.476933 [debug] [MainThread]: Command end result
+[0m19:14:03.484903 [debug] [MainThread]: Command `dbt build` succeeded at 19:14:03.484740 after 1.09 seconds
+[0m19:14:03.485517 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc26d1c9d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc269c51630>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc269b272e0>]}
+[0m19:14:03.486096 [debug] [MainThread]: Flushing usage events
+[0m19:15:10.789261 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f5f006920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f5e0b1960>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f5e0b0850>]}
+
+
+============================== 19:15:10.791733 | c6a04bb2-94cb-4bad-991e-75fde0b5f1ff ==============================
+[0m19:15:10.791733 [info ] [MainThread]: Running with dbt=1.6.1
+[0m19:15:10.792442 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/workspaces/ae-club-lswm/logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt build', 'send_anonymous_usage_stats': 'True'}
+[0m19:15:11.085428 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c6a04bb2-94cb-4bad-991e-75fde0b5f1ff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f5ba8c4c0>]}
+[0m19:15:11.093811 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c6a04bb2-94cb-4bad-991e-75fde0b5f1ff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f5ba7c370>]}
+[0m19:15:11.094411 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m19:15:11.102224 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m19:15:11.121081 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m19:15:11.121428 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m19:15:11.121889 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.coffee_shop_lswm.coffee_shop
+[0m19:15:11.126706 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c6a04bb2-94cb-4bad-991e-75fde0b5f1ff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f5b8505e0>]}
+[0m19:15:11.134348 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c6a04bb2-94cb-4bad-991e-75fde0b5f1ff', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f5b990b50>]}
+[0m19:15:11.134953 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m19:15:11.136254 [info ] [MainThread]: 
+[0m19:15:11.136807 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m19:15:11.137571 [debug] [MainThread]: Command end result
+[0m19:15:11.144957 [debug] [MainThread]: Command `dbt build` succeeded at 19:15:11.144810 after 0.38 seconds
+[0m19:15:11.145524 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f5f006920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f5bd29600>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f5b992f80>]}
+[0m19:15:11.146084 [debug] [MainThread]: Flushing usage events
+[0m19:15:51.609350 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f778064e980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f777f6f5a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f777f6f4df0>]}
+
+
+============================== 19:15:51.612004 | 1824769e-f95d-4f25-bc85-bf828e843071 ==============================
+[0m19:15:51.612004 [info ] [MainThread]: Running with dbt=1.6.1
+[0m19:15:51.612742 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/home/vscode/.dbt', 'log_path': '/workspaces/ae-club-lswm/logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt build', 'send_anonymous_usage_stats': 'True'}
+[0m19:15:51.882408 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '1824769e-f95d-4f25-bc85-bf828e843071', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f777d05c430>]}
+[0m19:15:51.895905 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '1824769e-f95d-4f25-bc85-bf828e843071', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f777d04d450>]}
+[0m19:15:51.896884 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m19:15:51.906320 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m19:15:51.912290 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m19:15:51.912810 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '1824769e-f95d-4f25-bc85-bf828e843071', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f777d0271f0>]}
+[0m19:15:52.669810 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.coffee_shop
+[0m19:15:52.675359 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1824769e-f95d-4f25-bc85-bf828e843071', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f777fbb1db0>]}
+[0m19:15:52.683392 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '1824769e-f95d-4f25-bc85-bf828e843071', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f777cfbc940>]}
+[0m19:15:52.684023 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m19:15:52.685317 [info ] [MainThread]: 
+[0m19:15:52.685862 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m19:15:52.686645 [debug] [MainThread]: Command end result
+[0m19:15:52.694122 [debug] [MainThread]: Command `dbt build` succeeded at 19:15:52.693968 after 1.11 seconds
+[0m19:15:52.694703 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f778064e980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f777d1e6590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f777d025630>]}
+[0m19:15:52.695279 [debug] [MainThread]: Flushing usage events
+[0m19:16:14.181400 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb3864ae980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb385559a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb385558df0>]}
+
+
+============================== 19:16:14.183923 | 548b4b6e-0389-4c23-88c9-a8bc66452e2d ==============================
+[0m19:16:14.183923 [info ] [MainThread]: Running with dbt=1.6.1
+[0m19:16:14.184659 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': '/workspaces/ae-club-lswm/logs', 'fail_fast': 'False', 'profiles_dir': '/home/vscode/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt build', 'send_anonymous_usage_stats': 'True'}
+[0m19:16:14.443804 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '548b4b6e-0389-4c23-88c9-a8bc66452e2d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb382f80820>]}
+[0m19:16:14.452200 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '548b4b6e-0389-4c23-88c9-a8bc66452e2d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb382f70f10>]}
+[0m19:16:14.452831 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m19:16:14.460577 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m19:16:14.466369 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m19:16:14.466973 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '548b4b6e-0389-4c23-88c9-a8bc66452e2d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb382f4b8b0>]}
+[0m19:16:15.256365 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.customers
+[0m19:16:15.262341 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '548b4b6e-0389-4c23-88c9-a8bc66452e2d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb382ea9cf0>]}
+[0m19:16:15.270450 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '548b4b6e-0389-4c23-88c9-a8bc66452e2d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb382ea9c30>]}
+[0m19:16:15.271158 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m19:16:15.272542 [info ] [MainThread]: 
+[0m19:16:15.273408 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m19:16:15.274208 [debug] [MainThread]: Command end result
+[0m19:16:15.281500 [debug] [MainThread]: Command `dbt build` succeeded at 19:16:15.281357 after 1.13 seconds
+[0m19:16:15.282117 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb3864ae980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb383215330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb382e319f0>]}
+[0m19:16:15.282700 [debug] [MainThread]: Flushing usage events
+[0m19:17:19.464143 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe8b3ad2980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe8b2b51a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe8b2b50df0>]}
+
+
+============================== 19:17:19.466765 | d3c62bc6-7344-45e8-8b7c-f1aba45598b1 ==============================
+[0m19:17:19.466765 [info ] [MainThread]: Running with dbt=1.6.1
+[0m19:17:19.467473 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/workspaces/ae-club-lswm/logs', 'fail_fast': 'False', 'profiles_dir': '/home/vscode/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m19:17:19.757700 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd3c62bc6-7344-45e8-8b7c-f1aba45598b1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe8b056c400>]}
+[0m19:17:19.769631 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd3c62bc6-7344-45e8-8b7c-f1aba45598b1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe8b0555060>]}
+[0m19:17:19.770320 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m19:17:19.778327 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m19:17:19.797450 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m19:17:19.797864 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m19:17:19.798329 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.customers
+[0m19:17:19.803399 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'd3c62bc6-7344-45e8-8b7c-f1aba45598b1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe8b032c0d0>]}
+[0m19:17:19.811557 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd3c62bc6-7344-45e8-8b7c-f1aba45598b1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe8b046f010>]}
+[0m19:17:19.812177 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m19:17:19.812730 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'd3c62bc6-7344-45e8-8b7c-f1aba45598b1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe8b046ef50>]}
+[0m19:17:19.813962 [info ] [MainThread]: 
+[0m19:17:19.814480 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m19:17:19.815289 [debug] [MainThread]: Command end result
+[0m19:17:19.822358 [debug] [MainThread]: Command `dbt run` succeeded at 19:17:19.822220 after 0.39 seconds
+[0m19:17:19.822909 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe8b3ad2980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe8b31f6260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe8b046e6b0>]}
+[0m19:17:19.823505 [debug] [MainThread]: Flushing usage events
+[0m19:18:39.569905 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f61282950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f60301420>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f60301540>]}
+
+
+============================== 19:18:39.572385 | b88295e9-7f00-4f0a-8bbc-f1c27948aaf6 ==============================
+[0m19:18:39.572385 [info ] [MainThread]: Running with dbt=1.6.1
+[0m19:18:39.573191 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': '/workspaces/ae-club-lswm/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt run', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:18:39.831382 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b88295e9-7f00-4f0a-8bbc-f1c27948aaf6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f5dc38730>]}
+[0m19:18:39.839652 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b88295e9-7f00-4f0a-8bbc-f1c27948aaf6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f5dc291e0>]}
+[0m19:18:39.840319 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m19:18:39.848094 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m19:18:39.854088 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m19:18:39.854669 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'b88295e9-7f00-4f0a-8bbc-f1c27948aaf6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f5de031f0>]}
+[0m19:18:40.620476 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.example.customers
+[0m19:18:40.626136 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b88295e9-7f00-4f0a-8bbc-f1c27948aaf6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f5db71c60>]}
+[0m19:18:40.634440 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b88295e9-7f00-4f0a-8bbc-f1c27948aaf6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f5db71c00>]}
+[0m19:18:40.635121 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m19:18:40.635888 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b88295e9-7f00-4f0a-8bbc-f1c27948aaf6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f5dc28610>]}
+[0m19:18:40.637294 [info ] [MainThread]: 
+[0m19:18:40.638038 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m19:18:40.638962 [debug] [MainThread]: Command end result
+[0m19:18:40.646109 [debug] [MainThread]: Command `dbt run` succeeded at 19:18:40.645964 after 1.10 seconds
+[0m19:18:40.646729 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f61282950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f5dc28610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f5db55c60>]}
+[0m19:18:40.647359 [debug] [MainThread]: Flushing usage events
+[0m19:19:59.955475 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efde7eb5d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efde6f5db10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efde6f5d990>]}
+
+
+============================== 19:19:59.958209 | 40d94b0e-8503-4590-8f59-e1478b141a20 ==============================
+[0m19:19:59.958209 [info ] [MainThread]: Running with dbt=1.6.1
+[0m19:19:59.958928 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/workspaces/ae-club-lswm/logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:20:00.231551 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '40d94b0e-8503-4590-8f59-e1478b141a20', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efde4988370>]}
+[0m19:20:00.239871 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '40d94b0e-8503-4590-8f59-e1478b141a20', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efde4971e70>]}
+[0m19:20:00.240480 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m19:20:00.248222 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m19:20:00.254047 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m19:20:00.254563 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '40d94b0e-8503-4590-8f59-e1478b141a20', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efde4970490>]}
+[0m19:20:01.006471 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.customers
+[0m19:20:01.014490 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '40d94b0e-8503-4590-8f59-e1478b141a20', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efde484bf70>]}
+[0m19:20:01.027192 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '40d94b0e-8503-4590-8f59-e1478b141a20', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efde484bc70>]}
+[0m19:20:01.027946 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m19:20:01.029413 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '40d94b0e-8503-4590-8f59-e1478b141a20', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efde484bc10>]}
+[0m19:20:01.030877 [info ] [MainThread]: 
+[0m19:20:01.031820 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m19:20:01.033284 [debug] [MainThread]: Command end result
+[0m19:20:01.040805 [debug] [MainThread]: Command `dbt run` succeeded at 19:20:01.040662 after 1.11 seconds
+[0m19:20:01.041456 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efde7eb5d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efde494aa70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efde4825de0>]}
+[0m19:20:01.042097 [debug] [MainThread]: Flushing usage events
+[0m19:23:15.179438 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f38c36c5d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f38c2771b10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f38c2771990>]}
+
+
+============================== 19:23:15.182008 | 6c60fdc6-bef1-4265-8438-b4d3d8b97fb9 ==============================
+[0m19:23:15.182008 [info ] [MainThread]: Running with dbt=1.6.1
+[0m19:23:15.182770 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/workspaces/ae-club-lswm/logs', 'fail_fast': 'False', 'profiles_dir': '/home/vscode/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m19:23:15.437055 [error] [MainThread]: Encountered an error:
+Runtime Error
+  at path ['models']: [{'name': 'customers', '+materialized': 'view'}] is not of type 'object'
+
+Error encountered in /workspaces/ae-club-lswm/dbt_project.yml
+[0m19:23:15.438029 [debug] [MainThread]: Command `dbt run` failed at 19:23:15.437913 after 0.29 seconds
+[0m19:23:15.438511 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f38c36c5d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f38c00909a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f38c0090790>]}
+[0m19:23:15.439185 [debug] [MainThread]: Flushing usage events
+[0m19:24:21.523538 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2686412950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f26854b88e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f26854b9540>]}
+
+
+============================== 19:24:21.526095 | 59d45b6f-93b0-481e-85ca-22bda02c810b ==============================
+[0m19:24:21.526095 [info ] [MainThread]: Running with dbt=1.6.1
+[0m19:24:21.526804 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': '/workspaces/ae-club-lswm/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:24:21.786062 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '59d45b6f-93b0-481e-85ca-22bda02c810b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2682e90400>]}
+[0m19:24:21.794870 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '59d45b6f-93b0-481e-85ca-22bda02c810b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2682e814e0>]}
+[0m19:24:21.795539 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m19:24:21.803728 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m19:24:21.811367 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m19:24:21.811952 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '59d45b6f-93b0-481e-85ca-22bda02c810b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2682e5b130>]}
+[0m19:24:22.760664 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_first_dbt_model
+[0m19:24:22.766208 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '59d45b6f-93b0-481e-85ca-22bda02c810b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2682dd8ac0>]}
+[0m19:24:22.775406 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '59d45b6f-93b0-481e-85ca-22bda02c810b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2682dd86d0>]}
+[0m19:24:22.776040 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m19:24:22.776635 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '59d45b6f-93b0-481e-85ca-22bda02c810b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2682dd8ac0>]}
+[0m19:24:22.777875 [info ] [MainThread]: 
+[0m19:24:22.778426 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m19:24:22.779285 [debug] [MainThread]: Command end result
+[0m19:24:22.786206 [debug] [MainThread]: Command `dbt run` succeeded at 19:24:22.786064 after 1.29 seconds
+[0m19:24:22.786770 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2686412950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2682d2a680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2682dd8730>]}
+[0m19:24:22.787349 [debug] [MainThread]: Flushing usage events
+[0m13:50:13.234638 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f813ccfe950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f813bd7d420>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f813bd7d540>]}
+
+
+============================== 13:50:13.262609 | 72b55f9b-0bbb-4618-af9c-d55f570b9cfa ==============================
+[0m13:50:13.262609 [info ] [MainThread]: Running with dbt=1.6.1
+[0m13:50:13.263592 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': '/workspaces/ae-club-lswm/logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:50:14.420997 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '72b55f9b-0bbb-4618-af9c-d55f570b9cfa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8139744400>]}
+[0m13:50:14.432038 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '72b55f9b-0bbb-4618-af9c-d55f570b9cfa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f813972d030>]}
+[0m13:50:14.432803 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m13:50:14.445745 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m13:50:14.573247 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:50:14.573648 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:50:14.574076 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_first_dbt_model
+[0m13:50:14.578841 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '72b55f9b-0bbb-4618-af9c-d55f570b9cfa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f81397000d0>]}
+[0m13:50:14.586313 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '72b55f9b-0bbb-4618-af9c-d55f570b9cfa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f81396504f0>]}
+[0m13:50:14.586766 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m13:50:14.587224 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '72b55f9b-0bbb-4618-af9c-d55f570b9cfa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8139653100>]}
+[0m13:50:14.588152 [info ] [MainThread]: 
+[0m13:50:14.588568 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m13:50:14.589176 [debug] [MainThread]: Command end result
+[0m13:50:14.595536 [debug] [MainThread]: Command `dbt run` succeeded at 13:50:14.595426 after 1.41 seconds
+[0m13:50:14.595942 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f813ccfe950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8139650040>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8139652920>]}
+[0m13:50:14.596352 [debug] [MainThread]: Flushing usage events
+[0m13:51:01.061974 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a923fe980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a914a5a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a914a4df0>]}
+
+
+============================== 13:51:01.064486 | 2bfe4378-1fa2-4aa9-aa20-5bcbff117463 ==============================
+[0m13:51:01.064486 [info ] [MainThread]: Running with dbt=1.6.1
+[0m13:51:01.065348 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/workspaces/ae-club-lswm/logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m13:51:01.424653 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '2bfe4378-1fa2-4aa9-aa20-5bcbff117463', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a8ee585b0>]}
+[0m13:51:01.433267 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '2bfe4378-1fa2-4aa9-aa20-5bcbff117463', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a8ee4a9b0>]}
+[0m13:51:01.433981 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m13:51:01.442684 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m13:51:01.448758 [info ] [MainThread]: Unable to do partial parsing because a project dependency has been added
+[0m13:51:01.449270 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '2bfe4378-1fa2-4aa9-aa20-5bcbff117463', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a8ee1f8e0>]}
+[0m13:51:02.155610 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_first_dbt_model
+[0m13:51:02.160944 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '2bfe4378-1fa2-4aa9-aa20-5bcbff117463', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a8ee5f790>]}
+[0m13:51:02.169205 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '2bfe4378-1fa2-4aa9-aa20-5bcbff117463', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a8ed30430>]}
+[0m13:51:02.169840 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m13:51:02.170444 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '2bfe4378-1fa2-4aa9-aa20-5bcbff117463', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a8ee5fd30>]}
+[0m13:51:02.171697 [info ] [MainThread]: 
+[0m13:51:02.172232 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m13:51:02.172952 [debug] [MainThread]: Command end result
+[0m13:51:02.181124 [debug] [MainThread]: Command `dbt run` succeeded at 13:51:02.180977 after 1.15 seconds
+[0m13:51:02.181721 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a923fe980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a8ee5e230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9a8ee1fcd0>]}
+[0m13:51:02.182320 [debug] [MainThread]: Flushing usage events
+[0m13:52:05.382052 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d5f52a9b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d5e5d4e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d5e5d55d0>]}
+
+
+============================== 13:52:05.386826 | 88a04c7b-888b-4027-aa79-7b8d8d0407eb ==============================
+[0m13:52:05.386826 [info ] [MainThread]: Running with dbt=1.6.1
+[0m13:52:05.388312 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/workspaces/ae-club-lswm/logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt init', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m13:52:05.391636 [info ] [MainThread]: Setting up your profile.
+[0m13:53:27.181272 [info ] [MainThread]: Profile coffee_shop_lswm written to /home/vscode/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:53:27.182263 [debug] [MainThread]: Command `dbt init` succeeded at 13:53:27.182097 after 81.82 seconds
+[0m13:53:27.183094 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d5f52a9b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d5bf67340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d5bf65360>]}
+[0m13:53:27.183696 [debug] [MainThread]: Flushing usage events
+[0m13:53:37.585104 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2e231d2980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2e22278dc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2e22278df0>]}
+
+
+============================== 13:53:37.587587 | b159e4da-c86d-48a6-9735-c248df942627 ==============================
+[0m13:53:37.587587 [info ] [MainThread]: Running with dbt=1.6.1
+[0m13:53:37.588600 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/workspaces/ae-club-lswm/logs', 'profiles_dir': '/home/vscode/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m13:53:37.589184 [info ] [MainThread]: dbt version: 1.6.1
+[0m13:53:37.589807 [info ] [MainThread]: python version: 3.10.12
+[0m13:53:37.590543 [info ] [MainThread]: python path: /usr/local/python/current/bin/python
+[0m13:53:37.591190 [info ] [MainThread]: os info: Linux-5.15.0-1041-azure-x86_64-with-glibc2.35
+[0m13:53:37.831234 [info ] [MainThread]: Using profiles dir at /home/vscode/.dbt
+[0m13:53:37.831791 [info ] [MainThread]: Using profiles.yml file at /home/vscode/.dbt/profiles.yml
+[0m13:53:37.832317 [info ] [MainThread]: Using dbt_project.yml file at /workspaces/ae-club-lswm/dbt_project.yml
+[0m13:53:37.833013 [info ] [MainThread]: adapter type: bigquery
+[0m13:53:37.833504 [info ] [MainThread]: adapter version: 1.6.4
+[0m13:53:37.850036 [info ] [MainThread]: Configuration:
+[0m13:53:37.850553 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m13:53:37.851196 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m13:53:37.851846 [info ] [MainThread]: Required dependencies:
+[0m13:53:37.852491 [debug] [MainThread]: Executing "git --help"
+[0m13:53:37.854609 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m13:53:37.855048 [debug] [MainThread]: STDERR: "b''"
+[0m13:53:37.855572 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m13:53:37.856102 [info ] [MainThread]: Connection:
+[0m13:53:37.856652 [info ] [MainThread]:   method: oauth
+[0m13:53:37.857247 [info ] [MainThread]:   database: aec-students
+[0m13:53:37.857777 [info ] [MainThread]:   execution_project: aec-students
+[0m13:53:37.858321 [info ] [MainThread]:   schema: dbt_lswm
+[0m13:53:37.858846 [info ] [MainThread]:   location: US
+[0m13:53:37.859356 [info ] [MainThread]:   priority: interactive
+[0m13:53:37.859908 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m13:53:37.860443 [info ] [MainThread]:   impersonate_service_account: None
+[0m13:53:37.860986 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m13:53:37.861551 [info ] [MainThread]:   job_retries: 1
+[0m13:53:37.862146 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m13:53:37.862705 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m13:53:37.870318 [info ] [MainThread]:   keyfile: None
+[0m13:53:37.871286 [info ] [MainThread]:   timeout_seconds: 300
+[0m13:53:37.872194 [info ] [MainThread]:   refresh_token: None
+[0m13:53:37.873115 [info ] [MainThread]:   client_id: None
+[0m13:53:37.873601 [info ] [MainThread]:   token_uri: None
+[0m13:53:37.874127 [info ] [MainThread]:   dataproc_region: None
+[0m13:53:37.874696 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m13:53:37.875464 [info ] [MainThread]:   gcs_bucket: None
+[0m13:53:37.876006 [info ] [MainThread]:   dataproc_batch: None
+[0m13:53:37.876644 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m13:53:37.877423 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m13:53:37.877926 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:53:38.452682 [debug] [MainThread]: On debug: select 1 as id
+[0m13:53:38.950328 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=aec-students&j=bq:US:8ae98b1a-8855-48e3-aace-ebcf92985e51&page=queryresults
+[0m13:53:39.391239 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m13:53:39.391854 [info ] [MainThread]: [32mAll checks passed![0m
+[0m13:53:39.392714 [debug] [MainThread]: Command `dbt debug` succeeded at 13:53:39.392576 after 1.83 seconds
+[0m13:53:39.393239 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m13:53:39.393744 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2e231d2980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2e1fc60310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2e1fc60160>]}
+[0m13:53:39.394413 [debug] [MainThread]: Flushing usage events
+[0m13:53:49.266600 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4a36b2e980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4a35bd5a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4a35bd4df0>]}
+
+
+============================== 13:53:49.269074 | b9043917-5997-4eeb-a5cd-116578a14761 ==============================
+[0m13:53:49.269074 [info ] [MainThread]: Running with dbt=1.6.1
+[0m13:53:49.269793 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/workspaces/ae-club-lswm/logs', 'version_check': 'True', 'profiles_dir': '/home/vscode/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m13:53:49.583187 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b9043917-5997-4eeb-a5cd-116578a14761', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4a33590580>]}
+[0m13:53:49.592006 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b9043917-5997-4eeb-a5cd-116578a14761', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4a335829e0>]}
+[0m13:53:49.592762 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m13:53:49.601150 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m13:53:49.607321 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m13:53:49.607809 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'b9043917-5997-4eeb-a5cd-116578a14761', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4a33557910>]}
+[0m13:53:50.315123 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_first_dbt_model
+[0m13:53:50.320395 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b9043917-5997-4eeb-a5cd-116578a14761', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4a334d8430>]}
+[0m13:53:50.329436 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b9043917-5997-4eeb-a5cd-116578a14761', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4a334d85b0>]}
+[0m13:53:50.330154 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m13:53:50.330794 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b9043917-5997-4eeb-a5cd-116578a14761', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4a334d8430>]}
+[0m13:53:50.332096 [info ] [MainThread]: 
+[0m13:53:50.332685 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m13:53:50.333461 [debug] [MainThread]: Command end result
+[0m13:53:50.340431 [debug] [MainThread]: Command `dbt run` succeeded at 13:53:50.340284 after 1.10 seconds
+[0m13:53:50.341023 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4a36b2e980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4a33556140>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4a334d83a0>]}
+[0m13:53:50.342003 [debug] [MainThread]: Flushing usage events
+[0m13:54:54.627680 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6ecc7ee920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6ecb86cd60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6ecb86c850>]}
+
+
+============================== 13:54:54.630172 | 5d8d6f4c-da23-4f4a-a9f4-4578fbfdded5 ==============================
+[0m13:54:54.630172 [info ] [MainThread]: Running with dbt=1.6.1
+[0m13:54:54.630917 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': '/workspaces/ae-club-lswm/logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m13:54:54.917058 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '5d8d6f4c-da23-4f4a-a9f4-4578fbfdded5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6ec9240370>]}
+[0m13:54:54.933763 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '5d8d6f4c-da23-4f4a-a9f4-4578fbfdded5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6ec922b1c0>]}
+[0m13:54:54.934690 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m13:54:54.943834 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m13:54:54.950155 [info ] [MainThread]: Unable to do partial parsing because a project dependency has been added
+[0m13:54:54.950730 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '5d8d6f4c-da23-4f4a-a9f4-4578fbfdded5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6ec93ff010>]}
+[0m13:54:55.852466 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_first_dbt_model
+[0m13:54:55.857781 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '5d8d6f4c-da23-4f4a-a9f4-4578fbfdded5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6ec9137c40>]}
+[0m13:54:55.865947 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '5d8d6f4c-da23-4f4a-a9f4-4578fbfdded5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6ec9137b80>]}
+[0m13:54:55.866600 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m13:54:55.867180 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5d8d6f4c-da23-4f4a-a9f4-4578fbfdded5', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6ec9137d60>]}
+[0m13:54:55.868429 [info ] [MainThread]: 
+[0m13:54:55.868964 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m13:54:55.869682 [debug] [MainThread]: Command end result
+[0m13:54:55.877641 [debug] [MainThread]: Command `dbt run` succeeded at 13:54:55.877495 after 1.28 seconds
+[0m13:54:55.878245 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6ecc7ee920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6ec93fff40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f6ec9182140>]}
+[0m13:54:55.878816 [debug] [MainThread]: Flushing usage events
+[0m13:57:43.453079 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff17cdd6980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff17be80dc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff17be80df0>]}
+
+
+============================== 13:57:43.455562 | bd9a9997-3753-40e2-89d0-191a48fe1d64 ==============================
+[0m13:57:43.455562 [info ] [MainThread]: Running with dbt=1.6.1
+[0m13:57:43.456328 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/workspaces/ae-club-lswm/logs', 'version_check': 'True', 'profiles_dir': '/home/vscode/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:57:43.716952 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'bd9a9997-3753-40e2-89d0-191a48fe1d64', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff179790400>]}
+[0m13:57:43.725924 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'bd9a9997-3753-40e2-89d0-191a48fe1d64', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff179781510>]}
+[0m13:57:43.726678 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m13:57:43.735161 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m13:57:43.760185 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m13:57:43.760545 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m13:57:43.761206 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.my_first_dbt_model
+[0m13:57:43.766367 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'bd9a9997-3753-40e2-89d0-191a48fe1d64', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff17955fe50>]}
+[0m13:57:43.774942 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'bd9a9997-3753-40e2-89d0-191a48fe1d64', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff179697910>]}
+[0m13:57:43.775609 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m13:57:43.776241 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'bd9a9997-3753-40e2-89d0-191a48fe1d64', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff179694d00>]}
+[0m13:57:43.777495 [info ] [MainThread]: 
+[0m13:57:43.778075 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m13:57:43.778866 [debug] [MainThread]: Command end result
+[0m13:57:43.786737 [debug] [MainThread]: Command `dbt run` succeeded at 13:57:43.786591 after 0.36 seconds
+[0m13:57:43.787453 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff17cdd6980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff17c383850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff179697100>]}
+[0m13:57:43.788062 [debug] [MainThread]: Flushing usage events
+[0m14:01:00.720811 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f60de3d29b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f60dd4554b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f60dd4555d0>]}
+
+
+============================== 14:01:00.723531 | f8f342e9-73f8-4e78-a42c-1fc4a3e7fbfa ==============================
+[0m14:01:00.723531 [info ] [MainThread]: Running with dbt=1.6.1
+[0m14:01:00.724447 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/workspaces/ae-club-lswm/logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:01:00.987203 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f8f342e9-73f8-4e78-a42c-1fc4a3e7fbfa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f60dae387f0>]}
+[0m14:01:00.995674 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'f8f342e9-73f8-4e78-a42c-1fc4a3e7fbfa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f60dae28e80>]}
+[0m14:01:00.996384 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m14:01:01.005818 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m14:01:01.012428 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m14:01:01.012913 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'f8f342e9-73f8-4e78-a42c-1fc4a3e7fbfa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f60dae2b460>]}
+[0m14:01:01.731771 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models
+- models.my_first_dbt_model
+[0m14:01:01.739313 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f8f342e9-73f8-4e78-a42c-1fc4a3e7fbfa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f60dad6a470>]}
+[0m14:01:01.758415 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f8f342e9-73f8-4e78-a42c-1fc4a3e7fbfa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f60dad6a350>]}
+[0m14:01:01.759736 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m14:01:01.760977 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f8f342e9-73f8-4e78-a42c-1fc4a3e7fbfa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f60dad6a410>]}
+[0m14:01:01.762934 [info ] [MainThread]: 
+[0m14:01:01.764174 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m14:01:01.765623 [debug] [MainThread]: Command end result
+[0m14:01:01.780863 [debug] [MainThread]: Command `dbt run` succeeded at 14:01:01.780710 after 1.09 seconds
+[0m14:01:01.782135 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f60de3d29b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f60dafff610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f60dad3ab00>]}
+[0m14:01:01.783406 [debug] [MainThread]: Flushing usage events
+[0m14:02:51.913052 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4aefe16a40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4aeeec0e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4aeeec14b0>]}
+
+
+============================== 14:02:51.915698 | fa4a86bb-d92f-4d24-a337-dfcc740ef3d4 ==============================
+[0m14:02:51.915698 [info ] [MainThread]: Running with dbt=1.6.1
+[0m14:02:51.916464 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/workspaces/ae-club-lswm/logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:02:52.175189 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'fa4a86bb-d92f-4d24-a337-dfcc740ef3d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4aec858370>]}
+[0m14:02:52.184713 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'fa4a86bb-d92f-4d24-a337-dfcc740ef3d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4aec84a8f0>]}
+[0m14:02:52.185463 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m14:02:52.193696 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m14:02:52.199908 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m14:02:52.200459 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'fa4a86bb-d92f-4d24-a337-dfcc740ef3d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4aec8237f0>]}
+[0m14:02:53.007633 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.coffee_shop_lswm
+[0m14:02:53.013454 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'fa4a86bb-d92f-4d24-a337-dfcc740ef3d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4aec7289d0>]}
+[0m14:02:53.021321 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'fa4a86bb-d92f-4d24-a337-dfcc740ef3d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4aec728730>]}
+[0m14:02:53.021913 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m14:02:53.022515 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'fa4a86bb-d92f-4d24-a337-dfcc740ef3d4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4aec7288b0>]}
+[0m14:02:53.023742 [info ] [MainThread]: 
+[0m14:02:53.024269 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m14:02:53.024981 [debug] [MainThread]: Command end result
+[0m14:02:53.032876 [debug] [MainThread]: Command `dbt run` succeeded at 14:02:53.032729 after 1.15 seconds
+[0m14:02:53.033452 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4aefe16a40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4aec823610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4aec7287f0>]}
+[0m14:02:53.034022 [debug] [MainThread]: Flushing usage events
+[0m14:07:05.606644 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb0bf40e950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb0be48d420>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb0be48d540>]}
+
+
+============================== 14:07:05.609229 | cca03667-9f9d-49ae-895a-8555a6996910 ==============================
+[0m14:07:05.609229 [info ] [MainThread]: Running with dbt=1.6.1
+[0m14:07:05.609969 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/workspaces/ae-club-lswm/logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m14:07:05.900100 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'cca03667-9f9d-49ae-895a-8555a6996910', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb0bbe38400>]}
+[0m14:07:05.909248 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'cca03667-9f9d-49ae-895a-8555a6996910', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb0bbe29570>]}
+[0m14:07:05.909994 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m14:07:05.918144 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m14:07:05.924387 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m14:07:05.924904 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'cca03667-9f9d-49ae-895a-8555a6996910', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb0bc003520>]}
+[0m14:07:06.646127 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models
+[0m14:07:06.653488 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cca03667-9f9d-49ae-895a-8555a6996910', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb0bbd71cf0>]}
+[0m14:07:06.666465 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'cca03667-9f9d-49ae-895a-8555a6996910', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb0bbd71c90>]}
+[0m14:07:06.671039 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m14:07:06.671647 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'cca03667-9f9d-49ae-895a-8555a6996910', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb0bbe28880>]}
+[0m14:07:06.672909 [info ] [MainThread]: 
+[0m14:07:06.673439 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m14:07:06.674167 [debug] [MainThread]: Command end result
+[0m14:07:06.688821 [debug] [MainThread]: Command `dbt run` succeeded at 14:07:06.688602 after 1.11 seconds
+[0m14:07:06.689703 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb0bf40e950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb0bc003eb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb0bbe28880>]}
+[0m14:07:06.694885 [debug] [MainThread]: Flushing usage events
+[0m14:21:02.457690 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1cde386980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1cdd42da20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1cdd42cdf0>]}
+
+
+============================== 14:21:02.460284 | a2283981-749b-4366-b6a7-34e4aa2390e1 ==============================
+[0m14:21:02.460284 [info ] [MainThread]: Running with dbt=1.6.1
+[0m14:21:02.461305 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/workspaces/ae-club-lswm/logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m14:21:02.726436 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a2283981-749b-4366-b6a7-34e4aa2390e1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1cdad90400>]}
+[0m14:21:02.737891 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a2283981-749b-4366-b6a7-34e4aa2390e1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1cdad81570>]}
+[0m14:21:02.738703 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m14:21:02.748682 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m14:21:02.754979 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m14:21:02.755523 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'a2283981-749b-4366-b6a7-34e4aa2390e1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1cdad5a620>]}
+[0m14:21:03.529248 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models
+[0m14:21:03.534946 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a2283981-749b-4366-b6a7-34e4aa2390e1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1cdad801f0>]}
+[0m14:21:03.543183 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a2283981-749b-4366-b6a7-34e4aa2390e1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1cdad816c0>]}
+[0m14:21:03.543820 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m14:21:03.544387 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a2283981-749b-4366-b6a7-34e4aa2390e1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1cdad81ab0>]}
+[0m14:21:03.545683 [info ] [MainThread]: 
+[0m14:21:03.546412 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m14:21:03.547300 [debug] [MainThread]: Command end result
+[0m14:21:03.556163 [debug] [MainThread]: Command `dbt run` succeeded at 14:21:03.556015 after 1.12 seconds
+[0m14:21:03.556791 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1cde386980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1cdad5b280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1cdad81570>]}
+[0m14:21:03.557397 [debug] [MainThread]: Flushing usage events
+[0m14:26:28.952151 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4e12cfe980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4e11da5a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4e11da4df0>]}
+
+
+============================== 14:26:28.954679 | 9739c32c-da5a-4d65-978b-39dbcd530833 ==============================
+[0m14:26:28.954679 [info ] [MainThread]: Running with dbt=1.6.1
+[0m14:26:28.955434 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/workspaces/ae-club-lswm/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m14:26:29.215520 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9739c32c-da5a-4d65-978b-39dbcd530833', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4e0f790400>]}
+[0m14:26:29.229614 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '9739c32c-da5a-4d65-978b-39dbcd530833', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4e0f780c10>]}
+[0m14:26:29.230660 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m14:26:29.239955 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m14:26:29.246053 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m14:26:29.246625 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '9739c32c-da5a-4d65-978b-39dbcd530833', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4e0f75b640>]}
+[0m14:26:29.970445 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.coffee_shop_lswm.example
+[0m14:26:29.975817 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '9739c32c-da5a-4d65-978b-39dbcd530833', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4e0f7f3eb0>]}
+[0m14:26:29.984498 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '9739c32c-da5a-4d65-978b-39dbcd530833', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4e0f7f3130>]}
+[0m14:26:29.985130 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m14:26:29.985685 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '9739c32c-da5a-4d65-978b-39dbcd530833', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4e0f626680>]}
+[0m14:26:29.986967 [info ] [MainThread]: 
+[0m14:26:29.987512 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m14:26:29.988233 [debug] [MainThread]: Command end result
+[0m14:26:29.996220 [debug] [MainThread]: Command `dbt run` succeeded at 14:26:29.996071 after 1.07 seconds
+[0m14:26:29.996800 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4e12cfe980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4e0f626680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4e0f7f1b70>]}
+[0m14:26:29.997371 [debug] [MainThread]: Flushing usage events
+[0m14:27:00.249203 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f2380e980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f228b5a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f228b4df0>]}
+
+
+============================== 14:27:00.251653 | 1f2733c5-a124-4492-8ec7-58b43e8dc570 ==============================
+[0m14:27:00.251653 [info ] [MainThread]: Running with dbt=1.6.1
+[0m14:27:00.252373 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/home/vscode/.dbt', 'log_path': '/workspaces/ae-club-lswm/logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt run', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:27:00.501882 [error] [MainThread]: Encountered an error:
+Runtime Error
+  at path []: Additional properties are not allowed ('coffee_shop_lswm' was unexpected)
+
+Error encountered in /workspaces/ae-club-lswm/dbt_project.yml
+[0m14:27:00.502918 [debug] [MainThread]: Command `dbt run` failed at 14:27:00.502764 after 0.28 seconds
+[0m14:27:00.503546 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f2380e980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f20280e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9f20280fa0>]}
+[0m14:27:00.504207 [debug] [MainThread]: Flushing usage events
+[0m14:27:26.076041 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f355b5a29b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f355a64d4b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f355a64d5d0>]}
+
+
+============================== 14:27:26.078638 | 5e66e3e6-dbd1-4a19-91a3-908d53136dfa ==============================
+[0m14:27:26.078638 [info ] [MainThread]: Running with dbt=1.6.1
+[0m14:27:26.079592 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/workspaces/ae-club-lswm/logs', 'debug': 'False', 'profiles_dir': '/home/vscode/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:27:26.379827 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '5e66e3e6-dbd1-4a19-91a3-908d53136dfa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3557f5c4c0>]}
+[0m14:27:26.388481 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '5e66e3e6-dbd1-4a19-91a3-908d53136dfa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3557f4d390>]}
+[0m14:27:26.389235 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m14:27:26.397677 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m14:27:26.403749 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m14:27:26.404297 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '5e66e3e6-dbd1-4a19-91a3-908d53136dfa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3557f22560>]}
+[0m14:27:27.118323 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.example
+[0m14:27:27.123639 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '5e66e3e6-dbd1-4a19-91a3-908d53136dfa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3557e2c820>]}
+[0m14:27:27.131688 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '5e66e3e6-dbd1-4a19-91a3-908d53136dfa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3557e2c5b0>]}
+[0m14:27:27.132301 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m14:27:27.132875 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5e66e3e6-dbd1-4a19-91a3-908d53136dfa', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3557f22f80>]}
+[0m14:27:27.134119 [info ] [MainThread]: 
+[0m14:27:27.134660 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m14:27:27.135386 [debug] [MainThread]: Command end result
+[0m14:27:27.143389 [debug] [MainThread]: Command `dbt run` succeeded at 14:27:27.143238 after 1.10 seconds
+[0m14:27:27.143971 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f355b5a29b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3557eb2590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3557e2c610>]}
+[0m14:27:27.144544 [debug] [MainThread]: Flushing usage events
+[0m14:29:48.494326 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3925266950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f392430d420>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f392430d540>]}
+
+
+============================== 14:29:48.496664 | 4ddbf0f3-fb87-4ee3-824f-11ddead0d2d6 ==============================
+[0m14:29:48.496664 [info ] [MainThread]: Running with dbt=1.6.1
+[0m14:29:48.497391 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/workspaces/ae-club-lswm/logs', 'profiles_dir': '/home/vscode/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:29:48.768304 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '4ddbf0f3-fb87-4ee3-824f-11ddead0d2d6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3921c60400>]}
+[0m14:29:48.779635 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '4ddbf0f3-fb87-4ee3-824f-11ddead0d2d6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3921c48ee0>]}
+[0m14:29:48.780336 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m14:29:48.789202 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m14:29:48.795368 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m14:29:48.795852 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '4ddbf0f3-fb87-4ee3-824f-11ddead0d2d6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3921c48400>]}
+[0m14:29:49.577686 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.example
+[0m14:29:49.583021 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '4ddbf0f3-fb87-4ee3-824f-11ddead0d2d6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3922203eb0>]}
+[0m14:29:49.591164 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '4ddbf0f3-fb87-4ee3-824f-11ddead0d2d6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3921b3b790>]}
+[0m14:29:49.591785 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m14:29:49.592362 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4ddbf0f3-fb87-4ee3-824f-11ddead0d2d6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3922203eb0>]}
+[0m14:29:49.593618 [info ] [MainThread]: 
+[0m14:29:49.594151 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m14:29:49.594892 [debug] [MainThread]: Command end result
+[0m14:29:49.602868 [debug] [MainThread]: Command `dbt run` succeeded at 14:29:49.602719 after 1.14 seconds
+[0m14:29:49.603450 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3925266950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3921b260b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3921ba7340>]}
+[0m14:29:49.604026 [debug] [MainThread]: Flushing usage events
+[0m14:33:39.084813 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3ac396e920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3ac29ed960>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3ac29ec850>]}
+
+
+============================== 14:33:39.088504 | efb86917-cb0f-472f-a043-3ad5f91133b3 ==============================
+[0m14:33:39.088504 [info ] [MainThread]: Running with dbt=1.6.1
+[0m14:33:39.089268 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/home/vscode/.dbt', 'log_path': '/workspaces/ae-club-lswm/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:33:39.376761 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'efb86917-cb0f-472f-a043-3ad5f91133b3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3ac033c370>]}
+[0m14:33:39.385779 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'efb86917-cb0f-472f-a043-3ad5f91133b3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3ac032d450>]}
+[0m14:33:39.386502 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m14:33:39.394931 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m14:33:39.414602 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m14:33:39.414955 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m14:33:39.415517 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.example
+[0m14:33:39.421278 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'efb86917-cb0f-472f-a043-3ad5f91133b3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3ac030bf10>]}
+[0m14:33:39.429383 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'efb86917-cb0f-472f-a043-3ad5f91133b3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3ac0240d30>]}
+[0m14:33:39.429980 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m14:33:39.430565 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'efb86917-cb0f-472f-a043-3ad5f91133b3', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3ac0243940>]}
+[0m14:33:39.431807 [info ] [MainThread]: 
+[0m14:33:39.432342 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m14:33:39.433067 [debug] [MainThread]: Command end result
+[0m14:33:39.441269 [debug] [MainThread]: Command `dbt run` succeeded at 14:33:39.441121 after 0.41 seconds
+[0m14:33:39.441866 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3ac396e920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3ac02431c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3ac0240880>]}
+[0m14:33:39.442479 [debug] [MainThread]: Flushing usage events
+[0m14:33:47.653209 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feeea60dd20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feee96b48b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feee96b5990>]}
+
+
+============================== 14:33:47.655651 | 606b2304-2578-4258-8ab0-4f03f3902f8b ==============================
+[0m14:33:47.655651 [info ] [MainThread]: Running with dbt=1.6.1
+[0m14:33:47.656374 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/workspaces/ae-club-lswm/logs', 'version_check': 'True', 'profiles_dir': '/home/vscode/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m14:33:47.911464 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '606b2304-2578-4258-8ab0-4f03f3902f8b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feee7098370>]}
+[0m14:33:47.920061 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '606b2304-2578-4258-8ab0-4f03f3902f8b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feee7083100>]}
+[0m14:33:47.920725 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m14:33:47.928987 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m14:33:47.948225 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m14:33:47.948584 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m14:33:47.949148 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.example
+[0m14:33:47.954745 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '606b2304-2578-4258-8ab0-4f03f3902f8b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feee6e4c0d0>]}
+[0m14:33:47.962838 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '606b2304-2578-4258-8ab0-4f03f3902f8b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feee6fa45b0>]}
+[0m14:33:47.963434 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m14:33:47.963996 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '606b2304-2578-4258-8ab0-4f03f3902f8b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feee6fa71c0>]}
+[0m14:33:47.965242 [info ] [MainThread]: 
+[0m14:33:47.965755 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m14:33:47.966519 [debug] [MainThread]: Command end result
+[0m14:33:47.974445 [debug] [MainThread]: Command `dbt run` succeeded at 14:33:47.974296 after 0.35 seconds
+[0m14:33:47.975019 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feeea60dd20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feee6fa6a40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feee6fa4100>]}
+[0m14:33:47.975565 [debug] [MainThread]: Flushing usage events
+[0m14:34:32.308602 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f33484d6920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f334757cd60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f334757c850>]}
+
+
+============================== 14:34:32.310989 | 0e8502f7-5e0f-4f64-a53e-7c8638841f53 ==============================
+[0m14:34:32.310989 [info ] [MainThread]: Running with dbt=1.6.1
+[0m14:34:32.311693 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/home/vscode/.dbt', 'log_path': '/workspaces/ae-club-lswm/logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:34:32.569208 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0e8502f7-5e0f-4f64-a53e-7c8638841f53', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3344e8c4f0>]}
+[0m14:34:32.577833 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0e8502f7-5e0f-4f64-a53e-7c8638841f53', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3344e7e6e0>]}
+[0m14:34:32.578508 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m14:34:32.586521 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m14:34:32.607531 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m14:34:32.607880 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m14:34:32.608436 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.example
+[0m14:34:32.613815 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0e8502f7-5e0f-4f64-a53e-7c8638841f53', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3344c54460>]}
+[0m14:34:32.622230 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0e8502f7-5e0f-4f64-a53e-7c8638841f53', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3344d90970>]}
+[0m14:34:32.622823 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m14:34:32.623387 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0e8502f7-5e0f-4f64-a53e-7c8638841f53', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3344d93580>]}
+[0m14:34:32.624625 [info ] [MainThread]: 
+[0m14:34:32.625178 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m14:34:32.625901 [debug] [MainThread]: Command end result
+[0m14:34:32.634241 [debug] [MainThread]: Command `dbt run` succeeded at 14:34:32.634078 after 0.35 seconds
+[0m14:34:32.634801 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f33484d6920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3344d92e00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3344d904c0>]}
+[0m14:34:32.635351 [debug] [MainThread]: Flushing usage events
+[0m14:36:02.350182 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1233d2a9b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1232dd4e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1232dd55d0>]}
+
+
+============================== 14:36:02.352812 | 68d865d8-c9c1-42ab-812f-ad30d6d4022e ==============================
+[0m14:36:02.352812 [info ] [MainThread]: Running with dbt=1.6.1
+[0m14:36:02.353796 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/workspaces/ae-club-lswm/logs', 'profiles_dir': '/home/vscode/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:36:02.609438 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '68d865d8-c9c1-42ab-812f-ad30d6d4022e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1230764400>]}
+[0m14:36:02.618451 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '68d865d8-c9c1-42ab-812f-ad30d6d4022e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f123074cee0>]}
+[0m14:36:02.619176 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m14:36:02.627412 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m14:36:02.646923 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m14:36:02.648220 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m14:36:02.649191 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.example
+[0m14:36:02.654150 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '68d865d8-c9c1-42ab-812f-ad30d6d4022e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f12305240d0>]}
+[0m14:36:02.662727 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '68d865d8-c9c1-42ab-812f-ad30d6d4022e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1230660430>]}
+[0m14:36:02.663381 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m14:36:02.664009 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '68d865d8-c9c1-42ab-812f-ad30d6d4022e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1230663040>]}
+[0m14:36:02.665245 [info ] [MainThread]: 
+[0m14:36:02.665823 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m14:36:02.666592 [debug] [MainThread]: Command end result
+[0m14:36:02.678853 [debug] [MainThread]: Command `dbt run` succeeded at 14:36:02.678703 after 0.35 seconds
+[0m14:36:02.679496 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1233d2a9b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1230662770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f12306627a0>]}
+[0m14:36:02.680099 [debug] [MainThread]: Flushing usage events
+[0m14:44:29.434802 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb89b8e980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb88c34dc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb88c34df0>]}
+
+
+============================== 14:44:29.437525 | ebaa2bd4-c65e-4d77-a073-4fab13c20e58 ==============================
+[0m14:44:29.437525 [info ] [MainThread]: Running with dbt=1.6.1
+[0m14:44:29.440410 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/vscode/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': '/workspaces/ae-club-lswm/logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m14:44:29.701886 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ebaa2bd4-c65e-4d77-a073-4fab13c20e58', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb86590400>]}
+[0m14:44:29.710805 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ebaa2bd4-c65e-4d77-a073-4fab13c20e58', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb86581390>]}
+[0m14:44:29.711549 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m14:44:29.719861 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m14:44:29.741219 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m14:44:29.741569 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m14:44:29.742258 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.example
+[0m14:44:29.747894 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'ebaa2bd4-c65e-4d77-a073-4fab13c20e58', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb86357f40>]}
+[0m14:44:29.756567 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'ebaa2bd4-c65e-4d77-a073-4fab13c20e58', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb86497ac0>]}
+[0m14:44:29.757238 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m14:44:29.757837 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'ebaa2bd4-c65e-4d77-a073-4fab13c20e58', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb86494eb0>]}
+[0m14:44:29.759084 [info ] [MainThread]: 
+[0m14:44:29.759656 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m14:44:29.760419 [debug] [MainThread]: Command end result
+[0m14:44:29.768030 [debug] [MainThread]: Command `dbt run` succeeded at 14:44:29.767884 after 0.36 seconds
+[0m14:44:29.768655 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb89b8e980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb891348b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb864972b0>]}
+[0m14:44:29.769253 [debug] [MainThread]: Flushing usage events
