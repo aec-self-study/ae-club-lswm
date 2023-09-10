@@ -866,3 +866,56 @@ There are 1 unused configuration paths:
 [0m14:44:29.768030 [debug] [MainThread]: Command `dbt run` succeeded at 14:44:29.767884 after 0.36 seconds
 [0m14:44:29.768655 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb89b8e980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb891348b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb864972b0>]}
 [0m14:44:29.769253 [debug] [MainThread]: Flushing usage events
+[0m14:46:34.024391 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f57674c5d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f57665708b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5766571990>]}
+
+
+============================== 14:46:34.026819 | b7294d79-d129-4b0e-a082-59223b134348 ==============================
+[0m14:46:34.026819 [info ] [MainThread]: Running with dbt=1.6.1
+[0m14:46:34.027427 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/workspaces/ae-club-lswm/logs', 'version_check': 'True', 'profiles_dir': '/home/vscode/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:46:34.292718 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b7294d79-d129-4b0e-a082-59223b134348', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5763e8c310>]}
+[0m14:46:34.300992 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b7294d79-d129-4b0e-a082-59223b134348', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5763e7df00>]}
+[0m14:46:34.301613 [info ] [MainThread]: Registered adapter: bigquery=1.6.4
+[0m14:46:34.311405 [debug] [MainThread]: checksum: efe19d9f5b93d1a98cc804fbfcdb6b3aced98b974af664946fee1cde8837deb7, vars: {}, profile: , target: , version: 1.6.1
+[0m14:46:34.331104 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m14:46:34.331472 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m14:46:34.331893 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.example
+[0m14:46:34.336601 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b7294d79-d129-4b0e-a082-59223b134348', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5763c57f70>]}
+[0m14:46:34.343580 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b7294d79-d129-4b0e-a082-59223b134348', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5763da0d90>]}
+[0m14:46:34.344032 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 390 macros, 0 groups, 0 semantic models
+[0m14:46:34.344484 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b7294d79-d129-4b0e-a082-59223b134348', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5763da39a0>]}
+[0m14:46:34.345400 [info ] [MainThread]: 
+[0m14:46:34.345818 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m14:46:34.346398 [debug] [MainThread]: Command end result
+[0m14:46:34.352333 [debug] [MainThread]: Command `dbt run` succeeded at 14:46:34.352223 after 0.36 seconds
+[0m14:46:34.352734 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f57674c5d20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5763da3220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5763da08e0>]}
+[0m14:46:34.353160 [debug] [MainThread]: Flushing usage events
+[0m14:48:28.228530 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd06160e980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd06068da20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd06068cdf0>]}
+
+
+============================== 14:48:28.230932 | 4a795020-9578-4cf2-adad-aa0a11b01f01 ==============================
+[0m14:48:28.230932 [info ] [MainThread]: Running with dbt=1.6.1
+[0m14:48:28.231571 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/home/vscode/.dbt', 'log_path': '/workspaces/ae-club-lswm/logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt run', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:48:28.524410 [error] [MainThread]: Encountered an error:
+Runtime Error
+  at path []: Additional properties are not allowed ('coffee_shop_lswm' was unexpected)
+
+Error encountered in /workspaces/ae-club-lswm/dbt_project.yml
+[0m14:48:28.525597 [debug] [MainThread]: Command `dbt run` failed at 14:48:28.525432 after 0.32 seconds
+[0m14:48:28.526624 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd06160e980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd05e0295a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd05e029690>]}
+[0m14:48:28.527315 [debug] [MainThread]: Flushing usage events
+[0m14:48:59.469605 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f80c68ddd20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f80c5985b10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f80c5985ae0>]}
+
+
+============================== 14:48:59.471999 | 57d862a2-82ce-4b33-8371-e94f43d68c81 ==============================
+[0m14:48:59.471999 [info ] [MainThread]: Running with dbt=1.6.1
+[0m14:48:59.472606 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': '/home/vscode/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:48:59.473085 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /workspaces/ae-club-lswm/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:48:59.473712 [debug] [MainThread]: Command `dbt run` failed at 14:48:59.473609 after 0.03 seconds
+[0m14:48:59.474087 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f80c68ddd20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f80c5975c90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f80c59766e0>]}
+[0m14:48:59.474503 [debug] [MainThread]: Flushing usage events

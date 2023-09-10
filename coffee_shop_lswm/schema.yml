@@ -2,10 +2,10 @@
 version: 2
 
 models:
-  - name: my_first_dbt_model
-    description: "A starter dbt model"
+  - name: user_stitching
+    description: "one visitor_id for each customer"
     columns:
-      - name: id
+      - name: customer_id
         description: "The primary key for this table"
         tests:
           - unique
